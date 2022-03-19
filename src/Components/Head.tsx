@@ -1,8 +1,9 @@
 import 'antd/dist/antd.less';
+import logo from '@imgaes/logo-payments-black.png';
 
 function Header() {
     return <>
-        <h3>hello</h3>
+        <img src={logo} alt=""/>
     </>
 }
 
